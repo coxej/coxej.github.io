@@ -3018,7 +3018,7 @@ input, select, textarea {
 				display: block;
 			}
 
-			.spotlights > section > .image:before {
+			.spotlights > section > .image:before:not(.school) {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
